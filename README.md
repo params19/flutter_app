@@ -1,6 +1,6 @@
 # currency_converter
 
-A new Flutter project made by Param
+A new Flutter project
 
 ## Getting Started
 
