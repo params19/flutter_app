@@ -18,7 +18,11 @@ class _CurrencyConverterMaterialPageState
     setState(() {});
   }
 
- 
+  @override
+  void dispose() {
+    textEditingController.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
