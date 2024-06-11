@@ -8,19 +8,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-<<<<<<< HEAD
 import 'package:currency_converter/main.dart';
-=======
->>>>>>> a798e8e5d7d60ebda441af91d72e7d4338155e18
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-<<<<<<< HEAD
     await tester.pumpWidget(const MyApp());
-=======
-    await tester.pumpWidget(const MyApp() as Widget);
->>>>>>> a798e8e5d7d60ebda441af91d72e7d4338155e18
 
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);
@@ -35,10 +28,3 @@ void main() {
     expect(find.text('1'), findsOneWidget);
   });
 }
-<<<<<<< HEAD
-=======
-
-class MyApp {
-  const MyApp();
-}
->>>>>>> a798e8e5d7d60ebda441af91d72e7d4338155e18
