@@ -1,6 +1,10 @@
 # currency_converter
 
+<<<<<<< HEAD
 A new Flutter project.
+=======
+A new Flutter project
+>>>>>>> a798e8e5d7d60ebda441af91d72e7d4338155e18
 
 ## Getting Started
 
